@@ -1251,13 +1251,9 @@ footer button:hover {
     flex-direction: column;
     gap: 40px;
   }
-  
-  .footer-links > div {
-    width: 100%;
-  }
 
   .footer-links p {
-    line-height: 1.5;
+    line-height: 1.2;
   }
   
   .footer-icons {
