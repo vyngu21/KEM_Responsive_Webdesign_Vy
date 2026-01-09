@@ -1172,7 +1172,7 @@ footer {
 }
 
 .footer-links p {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
   font-weight: 400;
   text-align: left;
   line-height: 0.3;
@@ -1221,9 +1221,8 @@ footer button:hover {
 .footer-icons {
   display: flex;
   align-items: center;
-  margin-left: auto;     /* ✅ Drückt automatisch nach rechts */
   gap: 7px;
-  margin-right: 50px;    /* ✅ Abstand vom Rand */
+  margin-top: 20px;
 }
 
 .footer-icons img {
@@ -1255,6 +1254,11 @@ footer button:hover {
   
   .footer-links > div {
     width: 100%;
+  }
+  
+  .footer-icons {
+    margin-top: 20px;
+    justify-content: flex-start;
   }
   
   footer input {
